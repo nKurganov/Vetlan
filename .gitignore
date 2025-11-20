@@ -53,3 +53,8 @@ CODE_REVIEW_REPORT.md
 CLEANUP_REPORT.md
 cleanup.bat
 
+# Деплой файлы (можно закоммитить)
+# Procfile
+# runtime.txt
+# railway.json
+
