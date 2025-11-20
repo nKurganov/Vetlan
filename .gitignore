@@ -1,0 +1,55 @@
+# Секретные данные
+.env
+.env.local
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv
+
+# Логи и данные
+logs/
+*.log
+*.csv
+stats.csv
+bot.log
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+
+# Архивы и бэкапы
+(Архив)/
+*.backup
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Отчеты (опционально)
+CODE_REVIEW_REPORT.md
+CLEANUP_REPORT.md
+cleanup.bat
+
