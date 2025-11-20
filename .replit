@@ -9,13 +9,6 @@ PYTHONPATH = "${PYTHONPATH}:."
 
 [packager]
 language = "python3"
-ignoredPackages = ["unit_tests"]
-
-[packager.features]
-packageSearch = true
-guessImports = true
-enabledForHosting = false
 
 [interpreter]
 command = ["python3", "-u", "$file"]
-args = []
