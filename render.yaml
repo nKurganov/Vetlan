@@ -1,0 +1,18 @@
+services:
+  - type: worker
+    name: vetlan-trading-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run_strategy.py
+    envVars:
+      - key: BYBIT_API_KEY
+        sync: false
+      - key: BYBIT_API_SECRET
+        sync: false
+      - key: BYBIT_ENV
+        value: mainnet
+      - key: TELEGRAM_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+
